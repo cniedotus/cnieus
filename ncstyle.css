@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* 
+    Style for my website
+
+    Cheng Nie
+    http://www.niecheng.net
+*/
+
+
+/*
+
+head
+
+*/
+
+h1 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/*
+    Menu
+*/
+
+div#menubar {
+  width: 1200px;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #bbbbbb;
+  clear: both;
+
+}
+
+/*image*/
+
+img {
+  margin: 5px 0px 30px 0px;
+  border: 7px solid black;
+  border-radius: 10px;
+}
+
+
+/* 
+    table of content + sidebar
+*/
+
+
+table {
+  font-size: 20pt;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+table#contentPlusSidebar {
+  width: 1200px;
+  margin-top: 10px;
+  margin-bottom: -2px;
+}
+
+table#contentPlusSidebar td {
+  vertical-align: top;
+}
+
+table#contentPlusSidebar td#content {
+  margin-left: 15px;
+  margin-bottom: 20px;
+  padding: 0px;
+  padding-bottom: 50px;
+}
+
+td#content div#contentText {
+  line-height: 1.5; 
+  padding-right: 30px; 
+  font-size: 15pt;
+}
+
+table#contentPlusSidebar td#sidebar {
+  color: #222;
+  width: 256px; 
+  position: relative;
+  font-size: 15px;
+  padding-left: 8px;
+  border-style: solid;
+  border-width: 0px 0px 0px 1px;
+  border-color: #bbbbbb;
+  padding-bottom: 50px;
+}
+
+div.sidebarBio {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+div.sidebarHeading
+{ 
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/*footer*/
+
+div#footer {
+  width: 1200px;
+  height: 20px;
+  color: #eeeeee;
+  font-size: 10pt;
+  text-align: right;
+
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-right: 0px;
+
+  clear: both;
+
+  border-style: solid;
+  border-color: #bbbbbb;
+  border-width: 4px 0px 0px 0px;
+
+  color: #3D477B;
+}
+
